@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+img{
+    max-width: 100%;
+    /* margin: 0 auto; */
+}
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+
+div.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#fff;
+    padding: 20px;
+    height: 85px;
+}
+
+div.contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+div.box-location{
+    display: flex;
+    align-items: center;
+    background-color: #EE9D1E;
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+div.address{
+    font-weight: 600;
+}
+
+div.box-contact{
+    color: #fff;
+    background-color: #EE9D1E;
+     padding: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+div.buy {
+    position: relative;
+  color: #EE9D1E;
+  font-size: 23px;
+    
+}
+span.circle{
+    color: #fff;
+    background-color: #EE9D1E;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 35px;
+    position: absolute;
+    font-weight: 700;
+    bottom: 12px;
+    right: 1px;
+}
+
+
+
+
+
+div.nav{
+    position: static;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #EE9D1E;
+}
+
+nav{
+    max-width: 90%;
+    margin: 0 auto;
+   
+ 
+     
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 50px;
+}
+
+li{
+    /* font-size: 20px; */
+    font-family: sans-serif;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+li:hover{
+
+
+}
+section.hero-section img{
+ position: relative;
+}
+
+section.hero-section img.image-two{
+    position: absolute;
+    right: 724px;
+    top: 15px;
+    width: 110px;
+}
+
+
+
+
+div.search-nihari{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top:30px;
+    /* margin-bottom: 30px; */
+    border: 1px solid  #EE9D1E;
+    color: #EE9D1E;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+input{
+    color: #EE9D1E;
+   border: none;
+   outline: none;
+}
+
+::placeholder{
+    color: #EE9D1E;
+    font-size: 16px;
+}
+div.arrow-icon{
+ background-color: #EE9D1E;
+ color: #fff;
+ padding: 3px;
+ border-radius: 50%;
+}
