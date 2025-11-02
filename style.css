@@ -103,6 +103,7 @@ li {
     font-family: sans-serif;
     list-style-type: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -123,6 +124,29 @@ section.hero-section img.image-two{
     right: 724px;
     top: 15px;
     width: 110px;
+}
+
+ .fa-angle-left {
+    position: absolute;
+    left: 3px;
+    bottom: 350px;
+    background-color:black;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 20px;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+.fa-angle-right {
+    position: absolute;
+    right: 3px;
+    bottom: 350px;
+    background-color:black;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 20px;
+    opacity: 0.5;
+    border-radius: 10px 0px 10px 10px;
 }
 
 
