@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Top bar */
+.contact-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+
+.location,
+.phone {
+  background: #EE9D1E;
+  padding: 8px 14px;
+  color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.cart {
+  position: relative;
+  color: #EE9D1E;
+  font-size: 20px;
+}
+
+.cart .count {
+  position: absolute;
+  font-size: 12px;
+  bottom: -5px;
+  right: -10px;
+  background: #EE9D1E;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* ✅ Sticky Navbar */
+.sticky-nav {
+  background: #EE9D1E;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.sticky-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding: 18px 0;
+}
+
+.sticky-nav li {
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+.sticky-nav li:hover {
+  background: black;
+  color: #EE9D1E;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+</style>
+
+</head>
+<body>
+    <header class="top-header">
+  <div class="contact-bar">
+    <div class="location">
+      <i class="fa-solid fa-location-dot"></i> Changes Location
+    </div>
+    <div class="phone">
+      <i class="fa-solid fa-phone"></i> 02134933111
+    </div>
+    <div class="cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span class="count">0</span>
+    </div>
+  </div>
+
+  <nav class="sticky-nav">
+    <ul>
+      <li>Nihari</li>
+      <li>Haleem</li>
+      <li>Biryani/Pulao</li>
+      <li>Tandoor</li>
+      <li>Soft Drink</li>
+      <li>Tin Pack</li>
+    </ul>
+  </nav>
+</header>
+<div style="height:1600px; background:#eee;">Scroll Test Area</div>
+
+
+</body>
+</html>
