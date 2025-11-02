@@ -16,6 +16,7 @@ img{
 .container{
     max-width: 70%;
     margin: 0 auto;
+    
 }
 
 
@@ -27,6 +28,7 @@ div.main{
     background-color:#fff;
     padding: 20px;
     height: 85px;
+   
 }
 
 div.contact{
@@ -84,14 +86,14 @@ span.circle{
     background-color: #EE9D1E;
     position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 99999;
 }
 
-nav {
+/* nav {
     max-width: 90%;
     margin: 0 auto;
-}
-
+} */
+ 
 ul {
     display: flex;
     justify-content: center;
@@ -188,7 +190,7 @@ div.arrow-icon{
  border-radius: 50%;
 }
 
-/* 
+
 section.card-section{
     margin-bottom: 1000px;
-}  */
+} 
