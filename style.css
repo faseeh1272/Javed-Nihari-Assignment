@@ -21,13 +21,14 @@ img{
 
 
 div.main{
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     background-color:#fff;
     padding: 20px;
-    height: 85px;
+    height: 65px;
    
 }
 
@@ -81,12 +82,11 @@ span.circle{
 
 .nav {
     
-    width: 100%;
-    
+    width: 100% ;
     background-color: #EE9D1E;
     position: sticky;
     top: 0;
-    z-index: 99999;
+   
 }
 
 /* nav {
@@ -122,14 +122,14 @@ section.hero-section {
  position: relative;
  height:100%;
  width: 100%;
- overflow: auto;
+ 
 }
 
 section.hero-section img.image-two{
     position: absolute;
     right: 724px;
-    top: 15px;
-    width: 110px;
+    top: -55px;
+     
 }
 
  .fa-angle-left {
@@ -192,5 +192,5 @@ div.arrow-icon{
 
 
 section.card-section{
-    margin-bottom: 1000px;
+    height: 100vh;
 } 
