@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "poppins" sans-serif;
+    font-family:    sans-serif;
 }
 section{
     width: 100%;
@@ -285,7 +285,7 @@ div.box-one a.price{
 
 /* banner section 2 */
 
-section.second-banner-section{
+section.add-items-section{
     width: 100%;
     margin-top: 50px;
 }
@@ -296,4 +296,68 @@ section.second-banner-section img{
 
 /* banner 2 end */
 
-/*  */
+/* section.second-banner-section start */
+
+section.second-banner-section{
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+div.main-box{
+    display: flex;
+    gap: 55px;
+    text-align: center;
+}
+
+div.items{
+    padding-bottom: 25px;
+    box-shadow: 0 0 5px 2px gray;
+    border-radius: 14px;
+}
+
+div.items img{
+    width: 256px;
+    height: 256px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+
+div.items h3.title{
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.items p.price{
+    font-size: 14px;
+    padding: 5px;
+    font-weight: 600;
+    color: #EE9D1E;margin-bottom: 10px;
+}
+
+
+div.items a.btn-add{
+    font-size: 14px;
+    color: #fff;
+    background-color: #EE9D1E;
+    font-weight: 600;
+    margin: 5px;
+    padding: 10px 42px;
+    border-radius: 18px;
+}
+
+
+ /* Haleem section start  */
+
+ section.haleem-banner-section{
+    width: 100%;
+    margin-top: 50px;
+
+ }
+  section.haleem-banner-section img{
+     border-radius: 10px;
+  }
