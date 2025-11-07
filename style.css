@@ -361,3 +361,17 @@ div.items a.btn-add{
   section.haleem-banner-section img{
      border-radius: 10px;
   }
+
+  /* end haleem section */
+
+  section.chicken{
+    width: 100%;
+    margin-top: 50px;
+  }
+
+
+  /* end section */
+  section.biryani-pulao{
+    width: 100%;
+    margin-top: 50px;
+  }
