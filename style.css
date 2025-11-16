@@ -579,6 +579,13 @@ a.Faqs {
 div.box-one{
     width: 100%;
 }
+div.main-box{
+     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    background-color: #fff;
+}
 
     
 }
@@ -592,6 +599,22 @@ div.box-one{
         width: 150px;
     }
 
+     div.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    background-color: #fff;
+}
+div.box-one{
+    width: 100%;
+}
+div.items{
+    width: 100%;
+}
+div.items img{
+    width: 100%;
+}
 
 }
  
