@@ -129,13 +129,14 @@ li:hover {
 }
    
     div.three-bar img{
-        display:none;
+       width: 150px;
+       text-align: end;
     }
 
-
+/* 
     div.three-bar {
         display:none;
-    }
+    } */
 
 
 section.hero-section {
@@ -547,9 +548,6 @@ a.Faqs {
         width: 50px;
 
     }
-
-
-
     div.main {
 
         display: flex;
@@ -571,6 +569,17 @@ a.Faqs {
 
     }
 
+   div.main-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    background-color: #fff;
+}
+div.box-one{
+    width: 100%;
+}
+
     
 }
 
@@ -579,7 +588,8 @@ a.Faqs {
 
 
     div.three-bar img{
-        display:none;
+        display:block;
+        width: 150px;
     }
 
 
@@ -593,6 +603,9 @@ a.Faqs {
 
     div.three-bar img {
         display:none;
+    }
+    .nav{
+        display: none;
     }
 
 
