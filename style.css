@@ -366,7 +366,16 @@ div.items p.price {
 
 
 div.items a.btn-add {
-    font-size: 14px;
+     font-size: 14px;
+    color: #fff;
+    background-color: #EE9D1E;
+    font-weight: 600;
+    margin: 5px;
+    padding: 10px 42px;
+    border-radius: 18px;
+}
+.add-items{
+ font-size: 14px;
     color: #fff;
     background-color: #EE9D1E;
     font-weight: 600;
@@ -586,6 +595,12 @@ div.main-box{
     gap: 13px;
     background-color: #fff;
 }
+div.items a.btn-add{
+    display: none;
+}
+.add-items{
+    display: block;
+}
 
     
 }
@@ -615,6 +630,11 @@ div.items{
 div.items img{
     width: 100%;
 }
+
+
+
+
+
 
 }
  
