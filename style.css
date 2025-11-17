@@ -131,6 +131,7 @@ li:hover {
     div.three-bar img{
        width: 150px;
        text-align: end;
+       display: none;
     }
 
 /* 
@@ -382,6 +383,7 @@ div.items a.btn-add {
     margin: 5px;
     padding: 10px 42px;
     border-radius: 18px;
+    display: none;
 }
 
 
@@ -632,7 +634,12 @@ div.items img{
 }
 
 
-
+/* div.items a.btn-add{
+    display: block;
+}
+.add-items{
+    display: none;
+} */
 
 
 
@@ -642,35 +649,27 @@ div.items img{
 
 @media screen and (max-width: 992px) {
 
+/* div.items a.btn-add{
+    display: none;
+}
+.add-items{
+    display: block;
+} */
 
-
-    div.three-bar img {
-        display:none;
-    }
-    .nav{
-        display: none;
-    }
-
+    
 
 }
 
 
 @media screen and (max-width: 1200px) {
     
-
-    div.three-bar img{
-        display:none;
-    }
-
+ 
 }
  
 
 @media screen and  (max-width: 1400px) {
     
 
-    div.three-bar img {
-        display:none;
-    }
-
+    
 }
  
