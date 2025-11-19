@@ -588,7 +588,8 @@ a.Faqs {
     background-color: #fff;
 }
 div.box-one{
-    width: 100%;
+    width: 25%;
+
 }
 div.main-box{
      width: 100%;
@@ -609,41 +610,86 @@ div.items a.btn-add{
 
 @media screen and (max-width: 768px) {
 
+   
+section.hero-section img.image-two {
+    position: absolute;
+    right: 308px;
+    top: -54px;
+    width: 100px;
+
+}
+
+.fa-angle-left {
+    position: absolute;
+    left: 3px;
+    bottom: 125px;
+    background-color: black;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 16px;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa-angle-right {
+    position: absolute;
+    right: 3px;
+    bottom: 125px;
+    background-color: black;
+    color: #fff;
+    padding: 25px 10px;
+    font-size: 16px;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+
 
 
     div.three-bar img{
-        display:block;
+        display:none;
         width: 150px;
     }
 
-     div.main-box {
+     /* div.main-box {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 13px;
+    background-color: #fff; */
+
+    
+div.box-one a.nihari {
+    position: absolute;
+    text-decoration: none;
+    top: 12px;
+    left: 23px;
+    color: black;
+    font-size: 10px;
+    font-weight: 1000;
+    background-color: #EE9D1E;
+    padding: 3px;
+    border-radius: 7px;
+}
+
+div.box-one a.price {
+    position: absolute;
+    right: 23px;
+    bottom: 12px;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(139, 136, 136);
+    box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
     background-color: #fff;
-}
-div.box-one{
-    width: 100%;
-}
-div.items{
-    width: 100%;
-}
-div.items img{
-    width: 100%;
-}
-
-
-/* div.items a.btn-add{
-    display: block;
-}
-.add-items{
-    display: none;
-} */
-
-
 
 }
+
+}
+ 
+
+
  
 
 
