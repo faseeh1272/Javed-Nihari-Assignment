@@ -549,7 +549,53 @@ a.Faqs {
  
 /* mobile first */
 
-@media (max-width: 580px) {
+@media   (min-width: 320px) and (max-width: 580px) {
+  
+  div.contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+}
+section.hero-section img.image-two {
+    display: none;
+    position: absolute;
+    right: 175px;
+    top: -25px;
+    width: 100px;
+
+}
+  
+.fa-angle-left {
+    display: none;
+    position: absolute;
+    left: 3px;
+    bottom: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 15px 5px;
+    font-size: 12px;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa-angle-right {
+    display: none;
+    position: absolute;
+    right: 3px;
+    bottom: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 15px 5px;
+    font-size: 12px;
+    opacity: 0.5;
+    border-radius: 10px 0px 0px 10px;
+}
+
+  
+}
+
+@media  (max-width: 580px) {
 
     div.container{
         width: 100%;
@@ -604,6 +650,33 @@ div.items a.btn-add{
 .add-items{
     display: block;
 }
+
+ 
+.fa-angle-left {
+    position: absolute;
+    left: 3px;
+    bottom: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 15px 5px;
+    font-size: 12px;
+    opacity: 0.5;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa-angle-right {
+    position: absolute;
+    right: 3px;
+    bottom: 40px;
+    background-color: black;
+    color: #fff;
+    padding: 15px 5px;
+    font-size: 12px;
+    opacity: 0.5;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
 
     
 }
