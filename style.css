@@ -546,7 +546,7 @@ a.Faqs {
 
 
 /* start media query  */
-
+ 
 /* mobile first */
 
 @media (max-width: 580px) {
@@ -587,10 +587,10 @@ a.Faqs {
     gap: 13px;
     background-color: #fff;
 }
-div.box-one{
+/* div.box-one{
     width: 25%;
 
-}
+} */
 div.main-box{
      width: 100%;
     display: flex;
@@ -640,7 +640,7 @@ section.hero-section img.image-two {
     padding: 25px 10px;
     font-size: 16px;
     opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 
@@ -656,9 +656,25 @@ section.hero-section img.image-two {
     flex-wrap: wrap;
     gap: 13px;
     background-color: #fff; */
+div.box-one {
+    width: 256px;
+    position: relative;
+    z-index: 1;
+    /* max-width: 100%; */
+    border: 1px solid rgb(231, 223, 223);
+    border-radius: 13px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 1px 0 1.5px rgba(0, 0, 0, .08) inset; */
+    /* overflow: hidden; */
+    cursor: pointer;
+    background-color: #fff;
 
+
+
+
+}
     
-div.box-one a.nihari {
+/* div.box-one a.nihari {
     position: absolute;
     text-decoration: none;
     top: 12px;
@@ -669,9 +685,9 @@ div.box-one a.nihari {
     background-color: #EE9D1E;
     padding: 3px;
     border-radius: 7px;
-}
+} */
 
-div.box-one a.price {
+/* div.box-one a.price {
     position: absolute;
     right: 23px;
     bottom: 12px;
@@ -684,6 +700,27 @@ div.box-one a.price {
     box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
     background-color: #fff;
 
+} */
+
+div.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    text-align: center;
+}
+
+div.items {
+    padding-bottom: 20px;
+    box-shadow: 0 0 5px 2px gray;
+    border-radius: 14px;
+}
+ div.main-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    background-color: #fff;
 }
 
 }
