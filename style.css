@@ -605,6 +605,22 @@ section.hero-section img.image-two {
         width: 50px;
 
     }
+    
+div.search-nihari {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    border: 1px solid #EE9D1E;
+    color: #EE9D1E;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
     div.main {
 
         display: flex;
