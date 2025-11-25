@@ -1,856 +1,772 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+ 
 
-section {
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-
-}
-
-img {
-    max-width: 100%;
-    /* margin: 0 auto; */
-}
-
-.container {
-    max-width: 75%;
-    margin: 0 auto;
-
-}
-
-
-div.main {
-
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background-color: #fff;
-    padding: 20px;
-    height: 65px;
-
+    padding: 1rem;
 }
 
-div.contact {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-
-div.box-location {
-    display: flex;
-    align-items: center;
-    background-color: #EE9D1E;
-    color: #fff;
-    padding: 10px;
-    font-weight: 500;
-    border-radius: 10px;
-}
-
-div.address {
-    font-weight: 600;
-}
-
-div.box-contact {
-    color: #fff;
-    background-color: #EE9D1E;
-    padding: 10px;
-    font-weight: 600;
-    border-radius: 10px;
-}
-
-div.buy {
+.header-logo {
     position: relative;
-    color: #EE9D1E;
-    font-size: 23px;
+    top: -1px;
+    margin-bottom: -6rem;
+       }
+       div.header-btns a{
+        color: #fff;
+       }
 
-}
+       div.header-btns{
+        text-decoration: none;
+        background-color: #EE9D1E;
+        padding: 10px;
+        border-radius: 8px;
 
-span.circle {
-    color: #fff;
-    background-color: #EE9D1E;
-    padding: 2px 4px;
-    font-size: 12px;
-    border-radius: 35px;
-    position: absolute;
-    font-weight: 700;
-    bottom: 12px;
-    right: 1px;
-}
+       }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
+
+    img {
+        max-width: 100%;
+        /* margin: 0 auto; */
+    }
+
+    .container {
+        max-width: 75%;
+        margin: 0 auto;
+
+    }
+
+    .header-logo img{
+        width:115px;
+    }
+    .cart-icon{
+        position: relative;
+        font-size: 26px;
+        color: #EE9D1E;
+    }
+
+
+    div.main {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #fff;
+        padding: 20px;
+        height: 65px;
+
+    }
+
+    div.contact {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    div.box-location {
+        display: flex;
+        align-items: center;
+        background-color: #EE9D1E;
+        color: #fff;
+        padding: 10px;
+        font-weight: 500;
+        border-radius: 10px;
+    }
+
+    div.address {
+        font-weight: 600;
+    }
+
+    div.box-contact {
+        color: #fff;
+        background-color: #EE9D1E;
+        padding: 10px;
+        font-weight: 600;
+        border-radius: 10px;
+    }
+
+    div.buy {
+        position: relative;
+        color: #EE9D1E;
+        font-size: 23px;
+
+    }
+
+    span.circle {
+        color: #fff;
+        background-color: #EE9D1E;
+        padding: 2px 4px;
+        font-size: 12px;
+        border-radius: 35px;
+        position: absolute;
+        font-weight: 700;
+        bottom: 12px;
+        right: 1px;
+    }
 
 
 
-.nav {
+    .nav {
 
-    width: 100%;
-    background-color: #EE9D1E;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+        width: 100%;
+        background-color: #EE9D1E;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
 
-}
+    }
 
-/* nav {
+    /* nav {
     max-width: 90%;
     margin: 0 auto;
 } */
 
-ul {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 30px 10px;
-    justify-content: space-between;
-}
-
-li {
-    font-family: sans-serif;
-    list-style-type: none;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-
-li:hover {
-    background-color: black;
-    color: #EE9D1E;
-    padding: 8px;
-    border-radius: 10px;
-    transition: 1s;
-
-}
-   
-    div.three-bar>img{
-       width: 150px;
-       text-align: end;
-       display: none;
+    ul {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 24px 10px;
+        justify-content: space-between;
     }
 
-/* 
+    li {
+        font-family: sans-serif;
+        list-style-type: none;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+
+    li:hover {
+        background-color: black;
+        color: #EE9D1E;
+        padding: 8px;
+        border-radius: 10px;
+        transition: 1s;
+
+    }
+
+    div.three-bar img {
+        width: 150px;
+        text-align: end;
+        display: none;
+    }
+
+    /* 
     div.three-bar {
         display:none;
     } */
 
 
-section.hero-section {
-    position: relative;
-    height: 100%;
-    width: 100%;
+    section.hero-section {
 
-}
+        height: 100%;
+        width: 100%;
 
-section.hero-section img.image-two {
+    }
+
+    /* section.hero-section img.image-two {
     position: absolute;
     right: 724px;
     top: -55px;
 
-}
-
-.fa-angle-left {
-    position: absolute;
-    left: 3px;
-    bottom: 350px;
-    background-color: black;
-    color: #fff;
-    padding: 25px 10px;
-    font-size: 20px;
-    opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.fa-angle-right {
-    position: absolute;
-    right: 3px;
-    bottom: 350px;
-    background-color: black;
-    color: #fff;
-    padding: 25px 10px;
-    font-size: 20px;
-    opacity: 0.5;
-    border-radius: 10px 0px 10px 10px;
-}
-
-
-
-
-div.search-nihari {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    margin-top: 30px;
-    /* margin-bottom: 30px; */
-    border: 1px solid #EE9D1E;
-    color: #EE9D1E;
-    border-radius: 30px;
-    cursor: pointer;
-
-
-}
-
-input {
-    color: #EE9D1E;
-    border: none;
-    outline: none;
-}
-
-::placeholder {
-    color: #EE9D1E;
-    font-size: 16px;
-}
-
-div.arrow-icon {
-    background-color: #EE9D1E;
-    color: #fff;
-    padding: 3px;
-    border-radius: 50%;
-}
-
-
-section.card-section {
-    width: 100%;
-    /* height: 100vh; */
-    background-image: url(./images/back\ img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/* popular section start */
-div.popular-content {
-    padding: 30px 10px;
-    line-height: 25px;
-}
-
-h1.popular-heading {
-    font-size: 20px;
-}
-
-.fa-fire-flame-curved {
-    color: #EE9D1E;
-}
-
-p.popular-para {
-    text-indent: 5px;
-}
-
-/* popular section end */
-
-/* card section start */
-
-div.main-card {
-    display: flex;
-    gap: 13px;
-    background-color: #fff;
-}
-
-div.box-one {
-    width: 290px;
-    position: relative;
-    z-index: 1;
-    max-width: 100%;
-    border: 1px solid rgb(231, 223, 223);
-    border-radius: 13px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    /* box-shadow: 0 1px 0 1.5px rgba(0, 0, 0, .08) inset; */
-    /* overflow: hidden; */
-    cursor: pointer;
-    background-color: #fff;
-
-
-
-
-}
-
-div.box-one:hover {
-    transform: translate(-10px) scale(1.2);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-    transition: 1s;
-}
-
-div.box-one a.nihari {
-    position: absolute;
-    text-decoration: none;
-    top: 12px;
-    left: 23px;
-    color: black;
-    font-size: 16px;
-    font-weight: 1000;
-    background-color: #EE9D1E;
-    padding: 3px;
-    border-radius: 7px;
-}
-
-div.box-one a.price {
-    position: absolute;
-    right: 23px;
-    bottom: 12px;
-    color: black;
-    font-size: 17px;
-    font-weight: 700;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid rgb(139, 136, 136);
-    box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
-    background-color: #fff;
-
-}
-
-
-/* banner section 2 */
-
-section.add-items-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-section.second-banner-section img {
-    border-radius: 10px;
-}
-
-/* banner 2 end */
-
-/* section.second-banner-section start */
-
-section.second-banner-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-
-div.main-box {
-    display: flex;
-    gap: 55px;
-    text-align: center;
-}
-
-div.items {
-    padding-bottom: 25px;
-    box-shadow: 0 0 5px 2px gray;
-    border-radius: 14px;
-}
-
-div.items img {
-    width: 256px;
-    height: 256px;
-    object-fit: cover;
-    display: block;
-    border-radius: 8px 8px 0px 0px;
-
-}
-
-div.items h3.title {
-    text-align: center;
-    font-weight: 700;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-div.items p.price {
-    font-size: 14px;
-    padding: 5px;
-    font-weight: 600;
-    color: #EE9D1E;
-    margin-bottom: 10px;
-}
-
-
-div.items a.btn-add {
-     font-size: 14px;
-    color: #fff;
-    background-color: #EE9D1E;
-    font-weight: 600;
-    margin: 5px;
-    padding: 10px 42px;
-    border-radius: 18px;
-}
-.add-items{
- font-size: 14px;
-    color: #fff;
-    background-color: #EE9D1E;
-    font-weight: 600;
-    margin: 5px;
-    padding: 10px 42px;
-    border-radius: 18px;
-    display: none;
-}
-
-
-/* Haleem section start  */
-
-section.haleem-banner-section {
-    width: 100%;
-    margin-top: 50px;
-
-}
-
-section.haleem-banner-section img {
-    border-radius: 10px;
-}
-
-/* end haleem section */
-
-section.chicken {
-    width: 100%;
-    margin-top: 50px;
-}
-
-
-/* end section */
-section.biryani-pulao {
-    width: 100%;
-    margin-top: 50px;
-}
-
-section.biryani-pulao img {
-    border-radius: 10px;
-}
-
-/* section.chicken-biryani-section start */
-
-section.chicken-biryani-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-/* section end */
-
-
-
-/*  section.tandoor-section start */
-section.tandoor-section {
-    width: 100%;
-    margin-top: 50px;
-
-}
-
-section.tandoor-section img {
-    border-radius: 10px;
-}
-
-/* section.naan-section start */
-section.naan-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-/* section end */
-
-/* drink section start */
-section.soft-drink-banner-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-section.soft-drink-banner-section img {
-    border-radius: 10px;
-}
-
-/* section end */
-
-section.drink-items-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-/* sectoin end*/
-
-
-/* section.tin-pack-section start*/
-
-section.tin-pack-section {
-    width: 100%;
-    margin-top: 50px;
-}
-
-section.tin-pack-section img {
-    border-radius: 10px;
-}
-
-/* section end */
-
-section.nihari-beef-can {
-    width: 100%;
-    margin-top: 50px;
-}
-
-/* section end */
-
-/* sectiobn.javed-content start  */
-section.javed-content {
-    width: 100%;
-    margin-top: 50px;
-    padding: 100px;
-
-}
-
-section.javed-content p {
-    text-align: justify;
-    color: rgb(95, 92, 92);
-
-}
-
-/* section end */
-
-/* footer section start */
-
-footer.footer-section {
-    width: 100%;
-    height: 300px;
-    background-color: rgb(34, 34, 34);
-    color: #fff;
-    display: flex;
-    align-items: center;
-}
-
-div.footer-content p {
-    word-spacing: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-p>a.indoji {
-    color: #fff;
-    margin: 2px;
-    font-weight: 1000;
-    text-decoration: underline;
-    border-right: 3px solid #fff;
-    padding-right: 2px;
-}
-
-a.Faqs {
-    color: #fff;
-    padding-left: 4px;
-    padding-right: 2px;
-
-    font-weight: 1000;
-    text-decoration: underline;
-    border-right: 3px solid #fff;
-}
-
-/* footer section end */
-
-
-
-/* start media query  */
- 
-/* mobile first */
-/* 
-@media   (min-width: 320px)   {
-  
-  div.contact {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 10px;
-}
-section.hero-section img.image-two {
-    display: none;
-    position: absolute;
-    right: 175px;
-    top: -25px;
-    width: 100px;
-
-}
-  
-.fa-angle-left {
-    display: none;
-    position: absolute;
-    left: 3px;
-    bottom: 40px;
-    background-color: black;
-    color: #fff;
-    padding: 15px 5px;
-    font-size: 12px;
-    opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.fa-angle-right {
-    display: none;
-    position: absolute;
-    right: 3px;
-    bottom: 40px;
-    background-color: black;
-    color: #fff;
-    padding: 15px 5px;
-    font-size: 12px;
-    opacity: 0.5;
-    border-radius: 10px 0px 0px 10px;
-}
- div.three-bar img{
-        display: block;
-        width: 30px;
-
-    }
-
-  
 } */
 
-@media  (max-width: 580px) {
-
-
-body {
-    font-size: 14px;
-}
-     
-    div.container{
-        width: 100%;
+    .fa-angle-left {
+        position: absolute;
+        left: 3px;
+        bottom: 350px;
+        background-color: black;
+        color: #fff;
+        padding: 25px 10px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
     }
-     div.three-bar img{
-        display: block;
-        
+
+    .fa-angle-right {
+        position: absolute;
+        right: 3px;
+        bottom: 350px;
+        background-color: black;
+        color: #fff;
+        padding: 25px 10px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 10px 10px;
     }
-    
-div.search-nihari {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    margin-top: 30px;
-    /* margin-bottom: 30px; */
-    border: 1px solid #EE9D1E;
-    color: #EE9D1E;
-    border-radius: 30px;
-    cursor: pointer;
 
 
-}
-    div.main {
+
+
+    div.search-nihari {
 
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        margin-top: 30px;
+        /* margin-bottom: 30px; */
+        border: 1px solid #EE9D1E;
+        color: #EE9D1E;
+        border-radius: 30px;
+        cursor: pointer;
+
+
+    }
+
+    input {
+        color: #EE9D1E;
+        border: none;
+        outline: none;
+    }
+
+    ::placeholder {
+        color: #EE9D1E;
+        font-size: 16px;
+    }
+
+    div.arrow-icon {
+        background-color: #EE9D1E;
+        color: #fff;
+        padding: 3px;
+        border-radius: 50%;
+    }
+
+
+    section.card-section {
+        width: 100%;
+        /* height: 100vh; */
+        background-image: url(./images/back\ img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+    /* popular section start */
+    div.popular-content {
+        padding: 30px 10px;
+        line-height: 25px;
+    }
+
+    h1.popular-heading {
+        font-size: 20px;
+    }
+
+    .fa-fire-flame-curved {
+        color: #EE9D1E;
+    }
+
+    p.popular-para {
+        text-indent: 5px;
+    }
+
+    /* popular section end */
+
+    /* card section start */
+
+    div.main-card {
+        display: flex;
+        gap: 13px;
+        background-color: #fff;
+    }
+
+    div.box-one {
+        width: 290px;
+        position: relative;
+        z-index: 1;
+        max-width: 100%;
+        border: 1px solid rgb(231, 223, 223);
+        border-radius: 13px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 0 1px 0 1.5px rgba(0, 0, 0, .08) inset; */
+        /* overflow: hidden; */
+        cursor: pointer;
+        background-color: #fff;
+
+
+
+
+    }
+
+    div.box-one:hover {
+        transform: translate(-10px) scale(1.2);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+        transition: 1s;
+    }
+
+    div.box-one a.nihari {
+        position: absolute;
+        text-decoration: none;
+        top: 12px;
+        left: 23px;
+        color: black;
+        font-size: 16px;
+        font-weight: 1000;
+        background-color: #EE9D1E;
+        padding: 3px;
+        border-radius: 7px;
+    }
+
+    div.box-one a.price {
+        position: absolute;
+        right: 23px;
+        bottom: 12px;
+        color: black;
+        font-size: 17px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 5px;
+        border: 1px solid rgb(139, 136, 136);
+        box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
+        background-color: #fff;
+
+    }
+
+
+    /* banner section 2 */
+
+    section.add-items-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    section.second-banner-section img {
+        border-radius: 10px;
+    }
+
+    /* banner 2 end */
+
+    /* section.second-banner-section start */
+
+    section.second-banner-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+    div.main-box {
+        display: flex;
+        gap: 55px;
+        text-align: center;
+    }
+
+    div.items {
+        padding-bottom: 25px;
+        box-shadow: 0 0 5px 2px gray;
+        border-radius: 14px;
+    }
+
+    div.items img {
+        width: 256px;
+        height: 256px;
+        object-fit: cover;
+        display: block;
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+    div.items h3.title {
+        text-align: center;
+        font-weight: 700;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    div.items p.price {
+        font-size: 14px;
+        padding: 5px;
+        font-weight: 600;
+        color: #EE9D1E;
+        margin-bottom: 10px;
+    }
+
+
+    div.items a.btn-add {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+    }
+
+    .add-items {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+        display: none;
+    }
+
+
+    /* Haleem section start  */
+
+    section.haleem-banner-section {
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    section.haleem-banner-section img {
+        border-radius: 10px;
+    }
+
+    /* end haleem section */
+
+    section.chicken {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+
+    /* end section */
+    section.biryani-pulao {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    section.biryani-pulao img {
+        border-radius: 10px;
+    }
+
+    /* section.chicken-biryani-section start */
+
+    section.chicken-biryani-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* section end */
+
+
+
+    /*  section.tandoor-section start */
+    section.tandoor-section {
+        width: 100%;
+        margin-top: 50px;
+
+    }
+
+    section.tandoor-section img {
+        border-radius: 10px;
+    }
+
+    /* section.naan-section start */
+    section.naan-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* section end */
+
+    /* drink section start */
+    section.soft-drink-banner-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    section.soft-drink-banner-section img {
+        border-radius: 10px;
+    }
+
+    /* section end */
+
+    section.drink-items-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* sectoin end*/
+
+
+    /* section.tin-pack-section start*/
+
+    section.tin-pack-section {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    section.tin-pack-section img {
+        border-radius: 10px;
+    }
+
+    /* section end */
+
+    section.nihari-beef-can {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    /* section end */
+
+    /* sectiobn.javed-content start  */
+    section.javed-content {
+        width: 100%;
+        margin-top: 50px;
+        padding: 100px;
+
+    }
+
+    section.javed-content p {
+        text-align: justify;
+        color: rgb(95, 92, 92);
+
+    }
+
+    /* section end */
+
+    /* footer section start */
+
+    footer.footer-section {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(34, 34, 34);
+        color: #fff;
+        display: flex;
+        align-items: center;
+    }
+
+    div.footer-content p {
+        word-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    p>a.indoji {
+        color: #fff;
+        margin: 2px;
+        font-weight: 1000;
+        text-decoration: underline;
+        border-right: 3px solid #fff;
+        padding-right: 2px;
+    }
+
+    a.Faqs {
+        color: #fff;
+        padding-left: 4px;
+        padding-right: 2px;
+
+        font-weight: 1000;
+        text-decoration: underline;
+        border-right: 3px solid #fff;
+    }
+
+    /* footer section end */
+
+ /*  
+    Mobile Small (max-width: 480px)
+     */
+@media (max-width: 480px) {
+
+    .header {
+        padding: 10px;
         flex-direction: column;
+        gap: 10px;
+        margin-bottom: 1rem;
     }
 
-    div.buy {
+    .header-logo img {
+        width: 80px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .main-box,
+    .main-card {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .box-one {
+        width: 100%;
+    }
+
+    .items img {
+        width: 100%;
+        height: auto;
+    }
+
+    .search-nihari input {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    .fa-angle-left {
         display: none;
+        position: absolute;
+        left: 3px;
+        bottom: 350px;
+        background-color: black;
+        color: #fff;
+        padding: 25px 10px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
     }
 
-    .img-two {
-        display: none;
+}
+
+
+
+/*   
+    Mobile Medium (max-width: 576px)
+   */
+@media (max-width: 576px) {
+
+    .header-logo img {
+        width: 90px;
     }
 
-    .nav {
-
-        display: none;
-
-
+    .main-card {
+        flex-wrap: wrap;
     }
 
-   div.main-card {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
-    background-color: #fff;
-}
-/* div.box-one{
-    width: 25%;
-
-/* } */
-div.main-box{
-     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
-    background-color: #fff;
-} */
-div.items a.btn-add{
-    display: none;
-}
-.add-items{
-    display: block;
-}
-
- 
-.fa-angle-left {
-    position: absolute;
-    left: 3px;
-    bottom: 40px;
-    background-color: black;
-    color: #fff;
-    padding: 15px 5px;
-    font-size: 12px;
-    opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.fa-angle-right {
-    position: absolute;
-    right: 3px;
-    bottom: 40px;
-    background-color: black;
-    color: #fff;
-    padding: 15px 5px;
-    font-size: 12px;
-    opacity: 0.5;
-    border-radius: 10px 0px 0px 10px;
-}
-
-
-
-    
-}
-
-@media screen and (max-width: 768px) {
-
-   
-section.hero-section img.image-two {
-    position: absolute;
-    right: 308px;
-    top: -54px;
-    width: 100px;
-
-}
-
-.fa-angle-left {
-    position: absolute;
-    left: 3px;
-    bottom: 125px;
-    background-color: black;
-    color: #fff;
-    padding: 25px 10px;
-    font-size: 16px;
-    opacity: 0.5;
-    border-radius: 0px 10px 10px 0px;
-}
-
-.fa-angle-right {
-    position: absolute;
-    right: 3px;
-    bottom: 125px;
-    background-color: black;
-    color: #fff;
-    padding: 25px 10px;
-    font-size: 16px;
-    opacity: 0.5;
-    border-radius: 10px 0px 0px 10px;
-}
-
-
-
-    div.three-bar img{
-        display:none;
-        width: 150px;
+    .box-one {
+        width: 100%;
     }
 
-     /* div.main-box {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
-    background-color: #fff; */
-div.box-one {
-    width: 256px;
-    position: relative;
-    z-index: 1;
-    /* max-width: 100%; */
-    border: 1px solid rgb(231, 223, 223);
-    border-radius: 13px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    /* box-shadow: 0 1px 0 1.5px rgba(0, 0, 0, .08) inset; */
-    /* overflow: hidden; */
-    cursor: pointer;
-    background-color: #fff;
-
-
-
-
-}
-    
-/* div.box-one a.nihari {
-    position: absolute;
-    text-decoration: none;
-    top: 12px;
-    left: 23px;
-    color: black;
-    font-size: 10px;
-    font-weight: 1000;
-    background-color: #EE9D1E;
-    padding: 3px;
-    border-radius: 7px;
-} */
-
-/* div.box-one a.price {
-    position: absolute;
-    right: 23px;
-    bottom: 12px;
-    color: black;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 10px;
-    padding: 5px;
-    border: 1px solid rgb(139, 136, 136);
-    box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
-    background-color: #fff;
-
-} */
-
-div.main-box {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 55px;
-    text-align: center;
+    .footer {
+        text-align: center;
+    }
 }
 
-div.items {
-    padding-bottom: 20px;
-    box-shadow: 0 0 5px 2px gray;
-    border-radius: 14px;
-}
- div.main-card {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 13px;
-    background-color: #fff;
-}
-
-}
- 
 
 
- 
+/*  
+    Tablet (max-width: 768px)
+   */
+@media (max-width: 768px) {
 
+    .header {
+        padding: 15px;
+    }
 
-@media screen and (max-width: 992px) {
+    .nav ul {
+        gap: 12px;
+    }
 
-/* div.items a.btn-add{
-    display: none;
-}
-.add-items{
-    display: block;
-} */
+    .hero-section {
+        height: auto;
+        padding: 2rem 0;
+    }
 
-    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .main-box {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box-one {
+        width: 45%;
+    }
+
+    .search-nihari {
+        padding: 1rem;
+    }
+
+    .search-nihari input {
+        width: 100%;
+    }
 
 }
 
 
-@media screen and (max-width: 1200px) {
-    
- 
-}
- 
 
-@media screen and  (max-width: 1400px) {
-    
+/* ===================================
+   💻 Laptop Small (max-width: 992px)
+   =================================== */
+@media (max-width: 992px) {
 
-    
+    .header {
+        padding: 15px 1rem;
+    }
+
+    .main-box {
+        gap: 25px;
+    }
+
+    .box-one {
+        width: 30%;
+    }
 }
- 
+
+
+
+/*  
+    Desktop Medium (max-width: 1200px)
+  */
+@media (max-width: 1200px) {
+
+    .container {
+        width: 92%;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .box-one {
+        width: 22%;
+    }
+
+}
+
+
+
+/* 
+    Large Screens (max-width: 1400px)
+    */
+@media (max-width: 1400px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .box-one {
+        width: 20%;
+    }
+}
