@@ -587,12 +587,18 @@
     .header {
         padding: 10px;
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
         margin-bottom: 1rem;
     }
 
+    
+ 
+
     .header-logo img {
         width: 80px;
+        position: relative;
+        top: 65px;
+          
     }
 
     nav ul {
@@ -640,6 +646,29 @@
         border-radius: 0px 10px 10px 0px;
     }
 
+    
+    .add-items {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+        display: block;
+    }
+    
+    div.items a.btn-add {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+        display: none;
+    }
+
 }
 
 
@@ -655,6 +684,7 @@
 
     .main-card {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .box-one {
@@ -663,6 +693,28 @@
 
     .footer {
         text-align: center;
+    }
+    
+    .add-items {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+        display: block;
+    }
+    
+    div.items a.btn-add {
+        font-size: 14px;
+        color: #fff;
+        background-color: #EE9D1E;
+        font-weight: 600;
+        margin: 5px;
+        padding: 10px 42px;
+        border-radius: 18px;
+        display: none;
     }
 }
 
@@ -716,9 +768,9 @@
 
 
 
-/* ===================================
-   💻 Laptop Small (max-width: 992px)
-   =================================== */
+/*  
+    Laptop Small (max-width: 992px)
+     */
 @media (max-width: 992px) {
 
     .header {
