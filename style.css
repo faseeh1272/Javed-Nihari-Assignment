@@ -634,17 +634,29 @@
     }
     
     .fa-angle-left {
-        display: none;
+        display: block;
         position: absolute;
         left: 3px;
-        bottom: 350px;
+        bottom: 390px;
         background-color: black;
         color: #fff;
-        padding: 25px 10px;
+        padding: 16px 4px;
         font-size: 20px;
         opacity: 0.5;
         border-radius: 0px 10px 10px 0px;
     }
+       .fa-angle-right {
+        position: absolute;
+        right: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 0px 10px;
+    }
+
 
     
     .add-items {
