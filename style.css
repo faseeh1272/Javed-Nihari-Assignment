@@ -105,10 +105,10 @@ span.circle {
 
 ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 60px;
-    gap: 50px;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    justify-content: space-between;
 }
 
 li {
@@ -128,7 +128,7 @@ li:hover {
 
 }
    
-    div.three-bar img{
+    div.three-bar>img{
        width: 150px;
        text-align: end;
        display: none;
@@ -548,8 +548,8 @@ a.Faqs {
 /* start media query  */
  
 /* mobile first */
-
-@media   (min-width: 320px) and (max-width: 580px) {
+/* 
+@media   (min-width: 320px)   {
   
   div.contact {
     display: flex;
@@ -591,19 +591,28 @@ section.hero-section img.image-two {
     opacity: 0.5;
     border-radius: 10px 0px 0px 10px;
 }
+ div.three-bar img{
+        display: block;
+        width: 30px;
+
+    }
 
   
-}
+} */
 
 @media  (max-width: 580px) {
 
+
+body {
+    font-size: 14px;
+}
+     
     div.container{
         width: 100%;
     }
      div.three-bar img{
         display: block;
-        width: 50px;
-
+        
     }
     
 div.search-nihari {
@@ -652,14 +661,14 @@ div.search-nihari {
 /* div.box-one{
     width: 25%;
 
-} */
+/* } */
 div.main-box{
      width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 13px;
     background-color: #fff;
-}
+} */
 div.items a.btn-add{
     display: none;
 }
