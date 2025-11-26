@@ -590,15 +590,15 @@
         gap: 15px;
         margin-bottom: 1rem;
     }
-
+ 
     
  
 
     .header-logo img {
-        width: 80px;
+        width: 50px;
         position: relative;
         top: 65px;
-          
+      left: 45px;
     }
 
     nav ul {
@@ -728,6 +728,30 @@
         border-radius: 18px;
         display: none;
     }
+      .fa-angle-left {
+        display: none;
+        position: absolute;
+        left: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
+    }
+       .fa-angle-right {
+        display: none;
+        position: absolute;
+        right: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 0px 10px;
+    }
 }
 
 
@@ -738,8 +762,12 @@
 @media (max-width: 768px) {
 
     .header {
-        padding: 15px;
+        padding: 10px;
     }
+    .header-logo img {
+    margin-right: 85px;
+    width: 105px;
+}
 
     .nav ul {
         gap: 12px;
@@ -765,7 +793,12 @@
     }
 
     .box-one {
-        width: 45%;
+       
+    /* use flex-basis so flexbox calculates properly */
+     width: 256px;
+     
+     flex-wrap: wrap;
+ 
     }
 
     .search-nihari {
@@ -775,6 +808,58 @@
     .search-nihari input {
         width: 100%;
     }
+      .fa-angle-left {
+        display:none;
+        position: absolute;
+        left: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
+    }
+       .fa-angle-right {
+        display: none;
+        position: absolute;
+        right: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 0px 10px;
+    }
+     div.box-one a.nihari {
+        position: absolute;
+        text-decoration: none;
+        top: 12px;
+        left: 23px;
+        color: black;
+        font-size: 14px;
+        font-weight: 1000;
+        background-color: #EE9D1E;
+        padding: 2px;
+        border-radius: 7px;
+    }
+
+     div.box-one a.price {
+        position: absolute;
+        right: 23px;
+        bottom: 12px;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 3px;
+        border: 1px solid rgb(139, 136, 136);
+        box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
+        background-color: #fff;
+
+    }
+
 
 }
 
@@ -789,12 +874,69 @@
         padding: 15px 1rem;
     }
 
+    .header-logo img {
+    width: 115px;
+    margin-right: 80px;
+}
+
     .main-box {
         gap: 25px;
+        flex-wrap: wrap;
     }
 
     .box-one {
         width: 30%;
+    }
+       .fa-angle-left {
+        display:none;
+        position: absolute;
+        left: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
+    }
+       .fa-angle-right {
+        display: none;
+        position: absolute;
+        right: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 0px 10px;
+    }
+         div.box-one a.nihari {
+        position: absolute;
+        text-decoration: none;
+        top: 12px;
+        left: 23px;
+        color: black;
+        font-size: 14px;
+        font-weight: 1000;
+        background-color: #EE9D1E;
+        padding: 2px;
+        border-radius: 7px;
+    }
+
+     div.box-one a.price {
+        position: absolute;
+        right: 23px;
+        bottom: 12px;
+        color: black;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        padding: 3px;
+        border: 1px solid rgb(139, 136, 136);
+        box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
+        background-color: #fff;
+
     }
 }
 
@@ -808,13 +950,45 @@
     .container {
         width: 92%;
     }
+    .header-logo img {
+    width: 115px;
+    margin-right: 65px;
+}
 
     nav ul {
         gap: 20px;
     }
+     .main-box {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
 
     .box-one {
         width: 22%;
+    }
+       .fa-angle-left {
+        display:none;
+        position: absolute;
+        left: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 0px 10px 10px 0px;
+    }
+       .fa-angle-right {
+        display: none;
+        position: absolute;
+        right: 3px;
+        bottom: 390px;
+        background-color: black;
+        color: #fff;
+        padding: 16px 4px;
+        font-size: 20px;
+        opacity: 0.5;
+        border-radius: 10px 0px 0px 10px;
     }
 
 }
