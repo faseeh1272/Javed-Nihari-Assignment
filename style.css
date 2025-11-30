@@ -11,6 +11,7 @@
     position: relative;
     top: -1px;
     margin-bottom: -6rem;
+    right: 39px;
        }
        div.header-btns a{
         color: #fff;
@@ -22,6 +23,9 @@
         padding: 10px;
         border-radius: 8px;
 
+       }
+       div.header-btns a{
+        text-decoration: none;
        }
 
     * {
@@ -35,7 +39,7 @@
         width: 100%;
     }
 
-    a {
+    a * {
         text-decoration: none;
 
     }
@@ -64,6 +68,7 @@
     div.main {
 
         display: flex;
+        
         align-items: center;
         justify-content: space-between;
         width: 100%;
@@ -175,12 +180,13 @@
     } */
 
 
-    section.hero-section {
+     section.hero-section { 
 
-        height: 100%;
-        width: 100%;
-
-    }
+        
+         width: 100%;
+         
+   } 
+    
 
     /* section.hero-section img.image-two {
     position: absolute;
@@ -192,7 +198,7 @@
     .fa-angle-left {
         position: absolute;
         left: 3px;
-        bottom: 350px;
+       top: 50%;
         background-color: black;
         color: #fff;
         padding: 25px 10px;
@@ -204,7 +210,7 @@
     .fa-angle-right {
         position: absolute;
         right: 3px;
-        bottom: 350px;
+        top: 50%;
         background-color: black;
         color: #fff;
         padding: 25px 10px;
@@ -328,6 +334,7 @@
     }
 
     div.box-one a.price {
+        text-decoration: none;
         position: absolute;
         right: 23px;
         bottom: 12px;
@@ -402,6 +409,7 @@
 
 
     div.items a.btn-add {
+        text-decoration: none;
         font-size: 14px;
         color: #fff;
         background-color: #EE9D1E;
@@ -582,7 +590,13 @@
  /*  
     Mobile Small (max-width: 480px)
      */
+      
 @media (max-width: 480px) {
+
+
+    .container{
+        width: 100%;
+    }
 
     .header {
         padding: 10px;
@@ -595,10 +609,10 @@
  
 
     .header-logo img {
-        width: 50px;
+        
         position: relative;
         top: 65px;
-      left: 45px;
+      left: 67px;
     }
 
     nav ul {
@@ -619,7 +633,8 @@
     }
 
     .box-one {
-        width: 100%;
+        width: 45%;
+        flex-wrap: wrap;
     }
 
     .items img {
@@ -630,7 +645,22 @@
     .search-nihari input {
         width: 100%;
         font-size: 14px;
-        padding: 10px;
+        padding: 8px;
+    }
+     div.search-nihari {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:8px;
+        margin-top: 30px;
+        /* margin-bottom: 30px; */
+        border: 1px solid #EE9D1E;
+        color: #EE9D1E;
+        border-radius: 30px;
+        cursor: pointer;
+
+
     }
     
     .fa-angle-left {
@@ -668,6 +698,7 @@
         padding: 10px 42px;
         border-radius: 18px;
         display: block;
+        text-decoration: none;
     }
     
     div.items a.btn-add {
@@ -680,8 +711,14 @@
         border-radius: 18px;
         display: none;
     }
-
-}
+     .cart-icon{
+        position: relative;
+        bottom: 35px;
+        font-size: 26px;
+        color: #EE9D1E;
+    }
+   
+}  
 
 
 
@@ -691,17 +728,28 @@
 @media (max-width: 576px) {
 
     .header-logo img {
-        width: 90px;
+        width: 50px;
     }
-
+ 
+    /* .main-box,
     .main-card {
+        display: flex;
         flex-wrap: wrap;
+        gap: 12px;
         justify-content: center;
-    }
+    } */
 
     .box-one {
-        width: 100%;
+       width:20%; 
+        /* max-width: calc(50% - 12px); */
     }
+
+    .box-one img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+ 
 
     .footer {
         text-align: center;
@@ -716,9 +764,11 @@
         padding: 10px 42px;
         border-radius: 18px;
         display: block;
+        text-decoration: none;
     }
     
     div.items a.btn-add {
+        text-decoration: none;
         font-size: 14px;
         color: #fff;
         background-color: #EE9D1E;
@@ -880,6 +930,7 @@
 }
 
     .main-box {
+        justify-content: center;
         gap: 25px;
         flex-wrap: wrap;
     }
@@ -937,6 +988,13 @@
         box-shadow: 1px 1px 3px 3px rgba(97, 95, 95, 0.3);
         background-color: #fff;
 
+    }
+     div.main-card {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 13px;
+        background-color: #fff;
     }
 }
 
